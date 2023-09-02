@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Gruppo&family=Montserrat&display=swap');
+
+ .nav-link {
+    color: #fff !important;
+  }
+ .nav-link:hover {
+    color: #b3d33e !important;
+  }
+.cardAdjust {
+    height: 250px !important;
+    width: 500px !important;
+    text-align: center;
+}
+.carT{
+    margin-top: 5px;
+    font-family: 'anton', sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    top: 1rem;
+
+}
+
+.paraCss2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px ; 
+}
+
+
+.button-container {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+.hrcss {
+    border: 1.5px solid #000000 !important;
+    width: 100%;
+}
+
+
+
+.card-bodyCSS {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    height: 220px;
+}
+
+.card {
+    border-radius: 0px !important;
+}
+
+.CPbutton:hover {
+    background-color: #fff !important;
+    color: #b3d33e !important;
+
+}
+
+.CPbutton {
+    background-color: #b3d33e !important;
+    color: #fff !important;
+    width: 200px !important;
+
+}
+
+.card-body {
+    justify-content: center !important;
+}
+
+.centered-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-logoC {
+    object-fit: cover;
+    max-width: 100px;
+
+    max-height: 200px;
+
+    display: block;
+    margin: auto;
+
+}
+
+@media (min-width: 576px) {
+    .centered-boxes {
+        gap: 15px;
+    }
+}
+
+
+
+/* Your existing CSS styles here */
+
+.card {
+    /* Your existing card styles here */
+    /* Add the card width and height according to your needs */
+    /* width: 300px;
+    height: 200px; */
+    position: relative;
+}
+
+.card-body {
+    /* Your existing card body styles here */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    /* Center horizontally */
+    height: 100%;
+}
+
+
+/* ........ */

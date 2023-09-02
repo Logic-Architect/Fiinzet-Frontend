@@ -1,0 +1,60 @@
+/* Add this CSS to your existing about.css file */
+
+/* Your existing styles */
+.secondB {
+    background-color: #769625 !important;
+    color: #fff !important;
+    font-size: 1.2rem !important;
+    justify-content: center !important;
+}
+
+.logoCSS2 {
+    margin: 0 auto 30px !important;
+    text-align: center !important;
+}
+
+/* Parallax effect */
+.bg-body-tertiary {
+    /* Other styles you have */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Adjust the background-size for the parallax effect */
+    background-size: cover;
+}
+
+.background-container {
+    /* Keep your existing styles */
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    min-height: 100vh !important;
+    /* Adjust this as needed to cover the entire viewport */
+
+    /* Add the blur effect */
+    backdrop-filter: blur(8px) !important;
+    /* Adjust the blur radius as needed */
+    -webkit-backdrop-filter: blur(8px) !important;
+    /* For Safari */
+}
+
+.AboutB2 {
+    font-family: 'Poppins', sans-serif !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.AboutB h1 {
+    color: #707070;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-right: 10% !important;
+    }
+
+    .container-fluid {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+}

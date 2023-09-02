@@ -1,0 +1,236 @@
+#myCarousel {
+  /* border-bottom: 1px solid rgba(122, 121, 121, 0.512); */
+  /* box-shadow: 1px 2px 3px rgba(4, 48, 73, 0.4); */
+}
+
+a .nav-link {
+  color: #fff !important;
+  padding: 3px !important;
+}
+
+a .nav-link:hover {
+  color: #b3d33e !important;
+}
+
+.sl1 {
+  right: 0 !important;
+}
+
+/* ........................................................ */
+/* .....................IMP................................... */
+/* ........................................................ */
+/* BUTTON ka positiion carousel-caption se change hoga */
+/* ........................................................ */
+
+
+/* Carousel caption style for larger screens */
+.carousel-caption1  {
+  position: absolute !important;
+  bottom: 17% !important;
+  left: 6% !important;
+  right: 25% !important;
+  padding-bottom: 15px !important;
+  color: #111 !important;
+  text-align: left !important;
+  z-index: 2;
+
+}
+
+.carousel-caption2 {
+  position: absolute !important;
+  bottom: 8% !important;
+  left: 9% !important;
+  right: 25% !important;
+  padding-bottom: 15px !important;
+  color: #111 !important;
+  text-align: left !important;
+  z-index: 2;
+}
+
+.carousel-caption3 {
+  position: absolute !important;
+  bottom: 17% !important;
+  left: 6% !important;
+  right: 25% !important;
+  padding-bottom: 15px !important;
+  color: #111 !important;
+  text-align: left !important;
+  z-index: 2;
+}
+
+.carousel-caption4 {
+  position: absolute !important;
+  bottom: 12% !important;
+  left: 6% !important;
+  right: 28% !important;
+  padding-bottom: 15px !important;
+  color: #111 !important;
+  text-align: left !important;
+  z-index: 2;
+}
+
+/* Change the shape of the carousel indicators to circles */
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  background-color: rgba(168, 168, 168, 0.705) !important;
+  border: 1px solid rgb(59, 59, 59) !important;
+  /* Light and transparent color */
+  margin: 0 4px !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* Adjust the style of the active indicator */
+.carousel-indicators button.active {
+
+  background-color: rgba(255, 255, 255, 0.833) !important;
+  border: 1px solid rgb(59, 59, 59) !important;
+}
+
+.btn-success {
+  background-color: #b3d33e !important;
+  color: #fff !important;
+  border: none;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+}
+
+.btn-success:hover {
+  background-color: #fff !important;
+  color: #b3d33e !important;
+  box-shadow: 0 .5rem 1rem rgba(15, 28, 51, 0.366) !important;
+  /* box-shadow: 2px 2px 5px rgba(4, 48, 73, 0.4); */
+}
+
+/* ........................................................ */
+/* .....................IMP................................... */
+/* ........................................................ */
+/*             Mobile view ke liye yaha se                       */
+/* ........................................................ */
+
+/* Add this CSS for mobile view */
+@media (max-width: 768px) {
+  /* Keep the previous mobile CSS here */
+  /* Remove unnecessary styles for mobile view */
+  .carousel-indicators {
+    list-style: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: 27vh !important; /* Adjust the position as needed */
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    z-index: 2; 
+  }
+
+/* Style the active indicator */
+.carousel-indicators .active {
+  background-color: rgba(255, 255, 255, 0.833) !important;
+  border: 1px solid rgb(59, 59, 59) !important;
+}
+
+/* .....................IMP................................... */
+/* ........................................................ */
+/*           Mobile view me carousel ka height adjust karne ke liye                      */
+/* ........................................................ */
+
+  .carousel-item {
+    position: relative;
+    height: 250px; /* Adjust height as needed   !!!!!!!!!!!!!! */
+    overflow: hidden;
+  
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 22px;
+    /* border-bottom: 1px solid rgba(122, 121, 121, 0.512);
+  box-shadow: 1px 2px 3px rgba(4, 48, 73, 0.4); */
+  }
+  #myCarousel{
+    border-radius: 20px;
+  }
+  .ApplyNowBtn {
+    font-size: 9px; /* Adjust the font size as needed */
+    padding: 1px 5px; /* Adjust the padding as needed */
+    width:80px;
+  }
+
+
+
+  .carousel-item:nth-child(1) img {
+    content: url("../images/M11.png");
+  }
+
+  .carousel-item:nth-child(2) img {
+    content: url("../images/M12.png");
+  }
+
+  .carousel-item:nth-child(3) img {
+    content: url("../images/M13.png");
+  }
+
+  .carousel-item:nth-child(4) img {
+    content: url("../images/M14.png");
+  }
+
+  /* Carousel caption style for larger screens */
+.carousel-caption1  {
+  position: absolute !important;
+  bottom: 13% !important;
+  left: 58% !important;
+  /* right: 25% !important; */
+  padding-bottom: 15px !important;
+  color: #111 !important;
+  text-align: left !important;
+  z-index: 2;
+
+}
+
+.carousel-caption2 {
+  position: absolute !important;
+  bottom: 12% !important;
+  left: 64% !important;
+  /* right: 25% !important; */
+  padding-bottom: 15px !important;
+  color: #111 !important;
+  text-align: left !important;
+  z-index: 2;
+
+}
+
+.carousel-caption3 {
+ position: absolute !important;
+  bottom: 13% !important;
+  left: 60% !important;
+  /* right: 25% !important; */
+  padding-bottom: 15px !important;
+  color: #111 !important;
+  text-align: left !important;
+  z-index: 2;
+}
+
+.carousel-caption4 {
+  position: absolute !important;
+  bottom: 13% !important;
+  left: 54% !important;
+  /* right: 25% !important; */
+  padding-bottom: 15px !important;
+  color: #180101 !important;
+  text-align: left !important;
+  z-index: 2;
+}
+  
+}
+
+ 

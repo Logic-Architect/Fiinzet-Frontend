@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Gruppo&family=Montserrat&display=swap');
+
+.card-textH {
+    /* font-family: 'Josefin Sans', sans-serif !important; */
+    /* font-family: 'Poppins', sans-serif !important; */
+    font-size: 1.25rem !important;
+    /* font-weight: bolder !important; */
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px !important;
+    /* font-family: 'Caprasimo', cursive; */
+    /* font-family: 'Gruppo', sans-serif; */
+}
+
+ .card-textH::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fdfdfd;
+    transition: width 0.3s ease-in-out;
+   
+  }
+  
+  .cardImgAdjust:hover .card-textH::after {
+    width: 100%;
+  }
+
+
+
+
+.midB {
+    justify-content: center !important;
+}
+
+.btnSize {
+    padding: 6px 10px !important;
+    font-size: 1rem;
+}
+
+.cardImgAdjust:hover .imgD{
+    border-radius: 50% !important;
+    box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4);
+    /* box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4); */
+
+}
+
+.imgD{
+    margin-top: 10px !important;
+}
+
+/* 
+.colAdjust {
+    height: 1rem !important;
+} */
+
+.cardImgAdjust {
+    height: 29rem !important;
+    
+}
+.cardImgAdjust:hover {
+  background-color: #b3d33e !important;
+  /* background: linear-gradient(to bottom,  #ecf8c2,#b3d33e); */
+
+  color: #fff !important;
+ 
+
+}
+.cardCSS{
+    font-weight: "bold" !important;
+}
+
+.paraCss{
+    font-weight: "bold" !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small !important;
+}
+
+@media (max-width: 990px) {
+    .cardImgAdjust {
+        height: 31rem !important;
+
+    }
+}
+
+
+.cardImgAdjust img {
+    object-fit: cover;
+    max-width: 200px;
+    /* Adjust this value as needed for width */
+    max-height: 200px;
+    /* Adjust this value as needed for height */
+    display: block;
+    margin: auto;
+
+}
+
+
+/* Add this in your CSS file */
+.container .card {
+
+    /* width: 19rem !important; */
+
+border-radius: 20px !important;
+    /* Add a shadow only on the right and bottom sides */
+    box-shadow: 2px 2px 5px rgba(4, 48, 73, 0.4);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 7px rgba(7, 72, 106, 0.4);
+}
+
+
+
+.album {
+    background: rgba(237, 237, 237, 0.478);
+}
+
+
+/* //..apply now..//// */
+
+
+
+
+.btn-primary {
+
+    background: #b3d33e !important;
+    color: #fff !important;
+
+    border: none !important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.cardImgAdjust:hover .btn-primary {
+
+    background: #fff!important;
+    color:#b3d33e  !important;
+    /* transform: scale(1.03); */
+    box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4);
+
+
+}
+ .btn-primary:hover {
+
+    background: #cecdcd!important;
+    color:#b3d33e  !important;
+    transform: scale(1.03) !important;
+    box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4);
+
+
+}
+
+
+@media (max-width: 1197px) {
+    .cardImgAdjust{
+     height: 35rem !important;
+       
+    }
+    
+}
+
+
+/* Add this in your CSS file */
+@media (max-width: 768px) {
+
+    .colAdjust {
+        flex-basis: 50%;
+    }
+
+    .cardImgAdjust img {
+        object-fit: cover;
+        /* height: 200px; */
+        height: 30rem !important;
+        /* Adjust this value as needed */
+        
+       
+    }
+ 
+/* 
+    .cardImgAdjust {
+
+    border-radius: 30% !important;
+    } */
+    .btnSize {
+        padding: 4px 8px !important;
+        font-size: 15px;
+    }
+    
+.cardA {
+    position: relative !important;
+    bottom: 0.5rem !important;
+    height: 10rem !important;
+    /* border: 2px solid red; */
+   
+}
+.cardMain{
+    margin-top: 0 !important;
+    height: 27rem !important;
+}
+
+}

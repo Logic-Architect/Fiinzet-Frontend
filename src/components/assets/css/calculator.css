@@ -1,0 +1,41 @@
+.resultCSS {
+
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.header{
+    color: red;
+}
+div h2{
+    margin-top: 200px;
+}
+
+.top{
+    margin-top: 200px !important;
+}
+
+.total_amount_card {
+
+    background-color: #cbea5b;
+    margin-top: 5px !important; 
+    justify-content: center !important;
+    align-items: center !important;
+    /* text-align: center !important; */
+  
+  
+  }
+
+  .card_text {
+    padding-top: 10px !important;
+    padding-bottom: 3px !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .container center button{
+    justify-content: space-between;
+  }
+
+  .AmtCss {
+    font-weight: bold;
+  }

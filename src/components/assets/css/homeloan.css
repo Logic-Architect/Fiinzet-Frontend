@@ -1,0 +1,115 @@
+/* ............... */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Gruppo&family=Montserrat&display=swap');
+
+.heading_text {
+  text-align: center !important;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+font-weight: 400 !important;
+}
+
+
+.total_amount_card {
+
+  background-color: #cbea5b;
+  margin-top: 5px;
+  border-radius: 20px !important;
+  box-shadow: 3px 3px 1px rgba(59, 59, 59, 0.15) !important;
+
+}
+
+.card_text {
+  padding-top: 2px;
+  justify-content: center !important;
+}
+
+.total_amount_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.total_amount_para {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+  color: #4B4B4B;
+}
+
+
+.hlCSS {
+  padding: 13px !important;
+  /* margin: 10px !important; */
+}
+
+
+.button1 {
+  background: #b3d33e !important;
+  color: #fff !important;
+
+  border: none !important;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.button1:hover {
+  background: #7a9d20 !important;
+
+  transform: scale(1.03);
+  box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4);
+}
+
+.button2 {
+  background: #61615f !important;
+  color: #fff !important;
+
+  border: none !important;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.button2:hover {
+  background: #2f2d2f !important;
+
+  transform: scale(1.03);
+  box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4);
+}
+
+.hlb {
+  /* display: flex !important;
+     */
+  /* position: absolute !important; */
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 2rem !important;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .contact-div .img-fluid {
+    display: none;
+  }
+
+  .row {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .contact-div .col-md-6.contactCSS {
+    width: 80% !important;
+
+  }
+
+  .sectionCSS {
+    /* position: absolute !important; */
+    padding-bottom: 6.5rem !important;
+  }
+
+}

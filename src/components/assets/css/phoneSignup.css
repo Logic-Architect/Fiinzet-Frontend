@@ -1,0 +1,14 @@
+.secBTN {
+    background-color: #61615f !important;
+    color: #fff !important;
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+
+}
+
+.secBTN:hover {
+    background-color: #2f2d2f !important;
+    transform: scale(1.05);
+
+}

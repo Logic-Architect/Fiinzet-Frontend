@@ -1,0 +1,31 @@
+input {
+    border: none !important;
+
+    border-bottom: 1px solid black !important;
+
+}
+
+.form-control {
+    border: none !important;
+    border-radius: 0%;
+    border-bottom: 1px solid black !important;
+
+}
+
+select option[disabled] {
+    color: #d2d2d2 !important;
+    /* Set the color for the placeholder text */
+}
+
+.fontS {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+    /* Adjust the font size and padding of the options in the dropdown */
+
+}
+.error{
+    color: red;
+}

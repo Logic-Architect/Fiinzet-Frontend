@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Gruppo&family=Montserrat&display=swap');
+
+.headCSS{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+font-weight: 400 !important;
+}
+
+.lead{
+ font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.CPbutton {
+    background-color: #b3d33e !important;
+    color: #fff !important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+}
+
+.CPbutton:hover {
+    background-color: #fff !important;
+    color: #b3d33e !important;
+    box-shadow: 0 .5rem 1rem rgba(15, 28, 51, 0.366) !important;
+
+}
+
+/* @media (max-width: 768px) {
+    .imageT {
+        margin-top: 15px !important;
+        z-index: -2 !important;
+    }
+} */
+
+/* product.css */
+
+/* Add or adjust margins and paddings as needed */
+.featurette {
+    margin-bottom: 2rem !important;
+  }
+  
+  .featurette-divider {
+    margin: 2rem 0 !important;
+  }
+  
+  /* Adjust image margins for better spacing */
+  .featurette img {
+    margin: 1rem 0 !important;
+  }
+  
+  /* Reduce spacing between paragraphs */
+  .featurette p {
+    margin-bottom: 1rem !important;
+  }
+  
+  @media (max-width: 768px) {
+    .iCSS{
+      transform: scale(0.8) !important;
+      /* margin: 0 !important;
+      position: relative;
+      bottom: 5rem; */
+    }
+
+    .headCSS{
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+    }
+    /* .bCSS{
+   
+      position: relative;
+      bottom: 10rem;
+    } */
+   
+  }
