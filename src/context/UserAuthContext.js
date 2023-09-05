@@ -32,9 +32,9 @@ export function UserAuthContextProvider({ children }) {
 
   function setUpRecaptha(number) {
     const recaptchaVerifier = new RecaptchaVerifier(
-      "recaptcha-container",
-      {},
-      auth
+       auth,
+       "recaptcha-container",
+      {}
     );
     recaptchaVerifier.render();
     return signInWithPhoneNumber(auth, number, recaptchaVerifier);

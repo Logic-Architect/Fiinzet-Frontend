@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navigation/Navbar'
 import Footer from '../components/navigation/Footer'
-import { UserAuthContextProvider } from '../context/UserAuthContext'
+// import { UserAuthContextProvider } from '../context/UserAuthContext'
 const Screen = (props) => {
   return (
     <>
@@ -9,9 +9,7 @@ const Screen = (props) => {
         <Navbar />
       </div>
       <div>
-        <UserAuthContextProvider>
           {props?.children}
-        </UserAuthContextProvider>
       </div>
       <div>
         <Footer />

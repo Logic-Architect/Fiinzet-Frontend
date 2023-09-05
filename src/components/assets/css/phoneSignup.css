@@ -12,3 +12,8 @@
     transform: scale(1.05);
 
 }
+
+.change-cursor-to-pointer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -14,11 +14,13 @@ import Login from "./components/container/auth/Login";
 import PhoneSignUp from "./components/container/auth/PhoneSignUp";
 import ProtectedRoute from "./components/common/ProtectedRoute";
 import Home from "./components/container/home/Home";
+import { UserAuthContextProvider } from "./context/UserAuthContext";
 import './App.css'
 function App() {
   return (
     <Provider>
       <BrowserRouter>
+      <UserAuthContextProvider>
         <Screen>
           <Routes>
             <Route path="/" element={<HomeLanding />} />
@@ -31,7 +33,6 @@ function App() {
             <Route path="/homeloan" element={<HomeLoan />} />
             <Route path="/Login" element={<Login />} />
             <Route path="/phonesignup" element={<PhoneSignUp />} />
-            <Route path="/phonesignup" element={<PhoneSignUp />} />
             <Route path="/homebackend" element={
               <ProtectedRoute>
                 <Home />
@@ -40,6 +41,7 @@ function App() {
             />
           </Routes>
         </Screen>
+        </UserAuthContextProvider>
       </BrowserRouter>
     </Provider>
   );

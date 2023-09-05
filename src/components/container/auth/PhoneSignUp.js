@@ -16,6 +16,8 @@ const PhoneSignUp = () => {
   const [otp, setOtp] = useState("");
   const [result, setResult] = useState("");
   const { setUpRecaptha } = useUserAuth();
+  const [timer , setTimer ] = useState(false)
+  const [parameter , setParameter] = useState('')
 
   const navigate = useNavigate();
 
@@ -25,19 +27,20 @@ const PhoneSignUp = () => {
       setNumber(result);
     }
     put();
-  }, []);
-const add=async()=>{
-  function setUpRecaptha(number) {
-    const recaptchaVerifier = new RecaptchaVerifier(
-      "recaptcha-container",
-      {},
-      auth
-    );
-    recaptchaVerifier.render();
-    return signInWithPhoneNumber(auth, number, recaptchaVerifier);
-  }
-}
+  }, [timer]);
+// const add=async()=>{
+//   function setUpRecaptha(number) {
+//     const recaptchaVerifier = new RecaptchaVerifier(
+//       auth,
+//       "recaptcha-container",
+//       {}
+//     );
+//     recaptchaVerifier.render();
+//     return signInWithPhoneNumber(auth, number, recaptchaVerifier);
+//   }
+// }
   const getOtp = async (e) => {
+    setParameter(e)
     e.preventDefault();
     console.log(number);
     console.log("from otp")
@@ -45,14 +48,13 @@ const add=async()=>{
     if (number === "" || number === undefined)
       return setError("Please enter a valid phone number!");
     try {
-      const response = await setUpRecaptha(number);
-      console.log(response)
-
+      const response = await setUpRecaptha(number)
+      console.log('******',{response},response.verificationId)
       setResult(response);
-      console.log(result)
+      // console.log(result)
       setFlag(true);
     } catch (err) {
-      setError(err.message);
+      setError(err);
       console.log(error)
     }
   };
@@ -102,6 +104,23 @@ const add=async()=>{
     }
   };
 
+  async function resendOtp(){
+    setTimer(true)
+    setTimeout(() => {
+      setTimer(false)
+    }, 1000*60*1);
+    // setFlag(true)
+    console.log(result)
+    console.log(number)
+    const recaptchaVerifier = new RecaptchaVerifier(
+            auth,
+            "resend",
+            {}
+          );
+          console.log('////',{recaptchaVerifier})
+    return signInWithPhoneNumber(auth, number, recaptchaVerifier);
+  }
+
   return (
     <>
       <div className="main mt-5">
@@ -111,7 +130,7 @@ const add=async()=>{
               <div className="card-body">
                 <div className="p-4 box">
                   <h2 className="mb-3">Verification process </h2>
-                  {error && <Alert variant="danger">{error}</Alert>}
+                  {error && <Alert variant="danger">{error?.code}</Alert>}
                   <Form
                     onSubmit={getOtp}
                     style={{ display: !flag ? "block" : "none" }}
@@ -161,11 +180,12 @@ const add=async()=>{
                         Verify
                       </Button>
                     </div>
-                    <div>
-                    <Button variant="primary" onClick={add}>
-                        Resend
-                      </Button>
-                    </div>
+                    <div id="resend"></div>
+                    {(!timer)?(<div className="resend-otp">
+                    Didn't Received OTP?<span className="change-cursor-to-pointer" onClick={resendOtp}>Send Again</span>
+                    </div>):(<div>
+
+                    </div>)}
                   </Form>
                 </div>
               </div>
