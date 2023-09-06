@@ -27,11 +27,12 @@ const ContactUs = () => {
     };
     fetch("https://fiinzet.com/contact", prerequire)
       .then(() => {
-        window.alert("Register successfully ")
+       
         setname("");
         setemail("");
         setphone("");
         setmessage("");
+        window.alert("Register successfully ")
         
       })
       .catch(() => {

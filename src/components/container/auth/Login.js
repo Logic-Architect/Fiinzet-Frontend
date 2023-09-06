@@ -1,22 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect , useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { Form, Alert } from "react-bootstrap";
 
 import Contact from "../../assets/images/details.jpg";
 import "../../assets/css/login.css";
 import "../../assets/css/contact.css";
+import PhoneSignUp from "./PhoneSignUp";
+import { Context } from "../../../App";
 
 const Login = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const contextValue = useContext(Context)
   const [error, setError] = useState("");
-  const [name, setname] = useState("");
-  const [phone, setphone] = useState("");
-  const [email, setemail] = useState("");
-  const [pincode, setpincode] = useState("");
-  const [status, setstatus] = useState("");
-  const [city, setcity] = useState("");
+  // const [name, setname] = useState("");
+   const [phone, setphone1] = useState("");
+  // const [email, setemail] = useState("");
+  // const [pincode, setpincode] = useState("");
+  // const [status, setstatus] = useState("");
+  // const [city, setcity] = useState("");
   const [flage, setflage] = useState("");
   
   const navigate = useNavigate();
@@ -33,14 +36,14 @@ const Login = () => {
     }
   };
   const add = async () => {
-    //console.log(name,email,phone,pincode,status)
-    if (name && email && phone && pincode && status && city) {
-      await sessionStorage.setItem("name", name);
-      await sessionStorage.setItem("email", email);
-      await sessionStorage.setItem("phone", "+91"+phone);
-      await sessionStorage.setItem("pincode", pincode);
-      await sessionStorage.setItem("status", status);
-      await sessionStorage.setItem("city", city);
+    
+    if ( contextValue.setname &&contextValue.email && phone && contextValue.pincode && contextValue.status && contextValue.city) {
+    
+      
+      
+      contextValue.setPhone(`+91${phone}`)
+      console.log(contextValue)
+      
       navigate("/phonesignup");
      // setflage(false);
     } else {
@@ -50,6 +53,7 @@ const Login = () => {
   };
 
   return (
+      
     <section className="section mt-5 pt-4 pb-5 contact-div">
       <div className="container">
         <div className="row">
@@ -81,10 +85,11 @@ const Login = () => {
 
                 <input
                   type="text"
-                  value={name}
+                  value={ contextValue.name}
                   onChange={(e) => {
-                    setname(e.target.value);
+                    contextValue.setname(e.target.value);
                   }}
+                  
                   className="form-control mb-2"
                   placeholder="Enter Full Name"
                 ></input>
@@ -96,9 +101,9 @@ const Login = () => {
                   inputMode="numeric"
               
                 maxLength={10}
-                  value={phone}
+                  value={ phone}
                   onChange={(e) => {
-                    setphone(e.target.value);
+                    setphone1(e.target.value);
                   }}
                   className="form-control mb-2"
                   placeholder="Enter Phone Number"
@@ -108,9 +113,9 @@ const Login = () => {
                 <label>Email Address</label>
                 <input
                   type="email"
-                  value={email}
+                  value={ contextValue.email}
                   onChange={(e) => {
-                    setemail(e.target.value);
+                    contextValue.setemail(e.target.value);
                   }}
                   className="form-control mb-2"
                   placeholder="Enter Email Address"
@@ -120,9 +125,9 @@ const Login = () => {
               <div>
                 <label>City</label>
                 <select
-                  value={city}
+                  value={ contextValue.city}
                   onChange={(e) => {
-                    setcity(e.target.value);
+                    contextValue.setcity(e.target.value);
                   }}
                   className="form-control mb-2 sizeW"
                 >
@@ -139,9 +144,9 @@ const Login = () => {
                   type="text"
                   inputMode="numeric"
                 maxLength={6}
-                  value={pincode}
+                  value={ contextValue.pincode}
                   onChange={(e) => {
-                    setpincode(e.target.value);
+                    contextValue.setpincode(e.target.value);
                   }}
                   className="form-control mb-2"
                   placeholder="Enter Pincode"
@@ -151,9 +156,9 @@ const Login = () => {
               <div>
                 <label>Employee Status</label>
                 <select
-                  value={status}
+                  value={ contextValue.status}
                   onChange={(e) => {
-                    setstatus(e.target.value);
+                    contextValue.setstatus(e.target.value);
                   }}
                   className="form-control mb-2 sizeW"
                 >
@@ -179,7 +184,7 @@ const Login = () => {
             </Form>
             <div class="button-container">
               <div className="from-group py-3 hlB">
-                <button onClick={add} className="btn btn-primary shadow w-100">
+                <button onClick={add} className="btn btn-primary shadow w-100 verifyBtn">
                   Verify OTP
                 </button>
               </div>
@@ -188,6 +193,7 @@ const Login = () => {
         </div>
       </div>
     </section>
+   
   );
 };
 

@@ -128,14 +128,11 @@ function Product() {
               needs with our expert team at your service!"
             </p>
             <p className="lead">
-              At Fiinzet, we take pride in empowering our customers' financial
-              aspirations. With years of expertise in the industry, we offer
-              tailored Loan Against Property solutions to help you unlock the
-              potential of your property. Our dedicated team of professionals
-              ensures a seamless loan application process, providing
-              personalized guidance at every step. Trust us to turn your
-              property into a valuable asset, fueling your dreams and securing
-              your future.
+              Fiinzet.com its Loan Against Property, allowing you to leverage your property's value while retaining ownership.
+              Benefit from our competitive interest rates and repayment plans tailored to your needs. 
+              Our experienced advisors will expertly guide you through the process, ensuring a seamless experience.
+              Seize opportunities by applying online today and take full advantage of your property's potential. 
+              Your financial goals are within reach with Fiinzet.cm's Loan Against Property.
             </p>
             <button type="button" className=" btn btn-lg CPbutton">
               <Link

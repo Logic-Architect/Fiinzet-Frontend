@@ -63,7 +63,7 @@ function CalculatorPage() {
                       <p className="text-center paraCss2">
                         An eligibility calculator is a tool that assesses an
                         individual's qualification for a specific financial
-                        product, such as a loan or credit card.
+                        product, such as a loan.
                       </p>
 
                       <button

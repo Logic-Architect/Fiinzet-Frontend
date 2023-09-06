@@ -21,6 +21,10 @@ select option[disabled] {
     font-weight: bold;
 }
 
+.verifyBtn:hover{
+     background-color: #fff !important;
+}
+
 @media (max-width: 768px) {
 
     /* Adjust the font size and padding of the options in the dropdown */

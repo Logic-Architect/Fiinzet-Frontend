@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState,createContext} from "react";
 import Provider from "./context/Provider";
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import Screen from "./screen/Screen";
@@ -16,9 +16,34 @@ import ProtectedRoute from "./components/common/ProtectedRoute";
 import Home from "./components/container/home/Home";
 import { UserAuthContextProvider } from "./context/UserAuthContext";
 import './App.css'
+
+export const Context = createContext()
+
 function App() {
+
+  const [phone , setPhone] = useState("");
+  const[name,setname]=useState("")
+  const [email, setemail] = useState("");
+  const [pincode, setpincode] = useState("");
+  const [status, setstatus] = useState("");
+  const [city, setcity] = useState("");
+    const contextValue = {
+        phone : phone,
+        setPhone : setPhone,
+        name:name,
+        setname:setname,
+        email:email,
+        setemail:setemail,
+        pincode:pincode,
+        setpincode:setpincode,
+        status:status,
+        setstatus:setstatus,
+        city:city,
+        setcity:setcity
+    }
+
   return (
-    <Provider>
+    <Context.Provider value = {contextValue}>
       <BrowserRouter>
       <UserAuthContextProvider>
         <Screen>
@@ -43,7 +68,7 @@ function App() {
         </Screen>
         </UserAuthContextProvider>
       </BrowserRouter>
-    </Provider>
+    </Context.Provider>
   );
 }
 

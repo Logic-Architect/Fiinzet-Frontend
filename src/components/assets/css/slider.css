@@ -90,10 +90,13 @@ a .nav-link:hover {
 }
 
 .btn-success {
-  background-color: #b3d33e !important;
+  background-color: #97b137 !important;
   color: #fff !important;
   border: none;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1.5;
+  box-shadow: 2px 2px 5px rgba(4, 48, 73, 0.4) !important;
 
 }
 
@@ -121,7 +124,8 @@ a .nav-link:hover {
     margin: 0 !important;
     padding: 0 !important;
     position: absolute !important;
-    top: 27vh !important; /* Adjust the position as needed */
+    top: 25
+    vh !important; /* Adjust the position as needed */
     left: 50% !important;
     transform: translateX(-50%) !important;
     z-index: 2; 
@@ -139,7 +143,8 @@ a .nav-link:hover {
 /* ........................................................ */
 
   .carousel-item {
-    position: relative;
+    margin-top: 10% !important;
+    /* position: relative; */
     height: 250px; /* Adjust height as needed   !!!!!!!!!!!!!! */
     overflow: hidden;
   
@@ -158,37 +163,36 @@ a .nav-link:hover {
   box-shadow: 1px 2px 3px rgba(4, 48, 73, 0.4); */
   }
   #myCarousel{
+
     border-radius: 20px;
   }
   .ApplyNowBtn {
-    font-size: 9px; /* Adjust the font size as needed */
+    font-size: 10px; /* Adjust the font size as needed */
     padding: 1px 5px; /* Adjust the padding as needed */
-    width:80px;
+    width:85px;
   }
 
-
-
   .carousel-item:nth-child(1) img {
-    content: url("../images/M11.png");
+    content: url("../../assets/images/WebsiteFormobileNew2.png");
   }
 
   .carousel-item:nth-child(2) img {
-    content: url("../images/M12.png");
+    content: url("../../assets/images/WebsiteFormobileNew1.png");
   }
 
   .carousel-item:nth-child(3) img {
-    content: url("../images/M13.png");
+    content: url("../../assets/images/WebsiteFormobileNew4.png");
   }
 
   .carousel-item:nth-child(4) img {
-    content: url("../images/M14.png");
+    content: url("../../assets/images/WebsiteFormobileNew3.png");
   }
 
   /* Carousel caption style for larger screens */
 .carousel-caption1  {
   position: absolute !important;
-  bottom: 13% !important;
-  left: 58% !important;
+  bottom: 20% !important;
+  left: 60% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
   color: #111 !important;
@@ -199,19 +203,18 @@ a .nav-link:hover {
 
 .carousel-caption2 {
   position: absolute !important;
-  bottom: 12% !important;
-  left: 64% !important;
+  bottom: 17% !important;
+  left: 62% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
   color: #111 !important;
   text-align: left !important;
   z-index: 2;
-
 }
 
 .carousel-caption3 {
  position: absolute !important;
-  bottom: 13% !important;
+  bottom: 22% !important;
   left: 60% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
@@ -222,8 +225,8 @@ a .nav-link:hover {
 
 .carousel-caption4 {
   position: absolute !important;
-  bottom: 13% !important;
-  left: 54% !important;
+  bottom: 20% !important;
+  left: 60% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
   color: #180101 !important;
@@ -233,4 +236,5 @@ a .nav-link:hover {
   
 }
 
- 
+
+

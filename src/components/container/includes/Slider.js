@@ -5,10 +5,10 @@ import Slider2 from "../../assets/images/banner2.jpg";
 import Slider1 from "../../assets/images/banner1.jpg";
 import Slider3 from "../../assets/images/banner3.jpg";
 import Slider4 from "../../assets/images/getfreecounsultaion.jpg";
-import Slider1Mobile from "../../assets/images/M11.png";
-import Slider2Mobile from "../../assets/images/M12.png";
-import Slider3Mobile from "../../assets/images/M13.png";
-import Slider4Mobile from "../../assets/images/M14.png";
+import Slider1Mobile from "../../assets/images/WebsiteFormobileNew2.png";
+import Slider2Mobile from "../../assets/images/WebsiteFormobileNew1.png";
+import Slider3Mobile from "../../assets/images/WebsiteFormobileNew4.png";
+import Slider4Mobile from "../../assets/images/WebsiteFormobileNew3.png";
 import "../../assets/css/slider.css";
 import { Carousel } from "bootstrap"; // Import Bootstrap Carousel
 
