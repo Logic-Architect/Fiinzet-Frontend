@@ -37,7 +37,7 @@ const Login = () => {
   };
   const add = async () => {
     
-    if ( contextValue.setname &&contextValue.email && phone && contextValue.pincode && contextValue.status && contextValue.city) {
+    if ( contextValue.name &&contextValue.email && phone && contextValue.pincode && contextValue.status && contextValue.city) {
     
       
       
