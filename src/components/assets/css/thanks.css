@@ -1,9 +1,0 @@
-.thanks{
-    margin-top: 50px !important;
-}
-
-@media (max-width: 768px) {
-    .thanks{
-        margin-bottom: 60% !important;
-    }
-}

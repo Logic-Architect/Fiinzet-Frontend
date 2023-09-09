@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Gruppo&family=Montserrat&display=swap');
+/* Add this CSS to your existing about.css file */
+
+.hCSS{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+font-weight: 400 !important;
+}
+
+/* Your existing styles */
+.secondB {
+    background-color: #769625 !important;
+    color: #fff !important;
+    font-size: 1.2rem !important;
+    justify-content: center !important;
+}
+
+.logoCSS {
+    margin-bottom: 30px !important;
+}
+
+/* Parallax effect */
+.bg-body-tertiary {
+    /* Other styles you have */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Adjust the background-size to control stretching */
+    background-size:   50%  50%; /* Play with the second value to control stretching */
+}
+
+.background-container {
+    /* Keep your existing styles */
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    min-height: 100vh !important;
+    /* Adjust this as needed to cover the entire viewport */
+
+    /* Add the blur effect */
+    backdrop-filter: blur(8px) !important;
+    /* Adjust the blur radius as needed */
+    -webkit-backdrop-filter: blur(8px) !important;
+    /* For Safari */
+}
+
+.AboutB {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.AboutB h1 {
+    color: #707070;
+}
+
+@media (max-width: 768px) {
+    .logoCSS {
+        margin-right: 14% !important;
+    }
+
+    .container-fluid {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+}
+

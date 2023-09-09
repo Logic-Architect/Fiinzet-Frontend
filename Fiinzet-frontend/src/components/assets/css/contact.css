@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400;500&family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Gruppo&family=Montserrat&display=swap');
+.headerCSS {
+    text-align: center !important;
+    margin-top: 20px;
+    /* font-weight: bold; */
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+/* .contact-div{
+    background-size: cover !important;
+    background: url("../images/bannerA1.png") no-repeat center   ;
+   
+} */
+
+
+
+  
+  
+  
+  
+  
+
+.labelCSS {
+    margin-top: 5px;
+}
+.btnC{
+    margin-top: 20px;
+}
+
+input {
+    border: none !important;
+    border-bottom: 1px solid #646464 !important;
+    /* Adjust the color as needed */
+    padding: 5px !important;
+    border-radius: 0 !important;
+}
+
+input :focus {
+    outline: none;
+    /* Add any additional focus styles if needed */
+}
+
+textarea {
+    border: none !important;
+    border-bottom: 1px solid #646464 !important;
+    /* Adjust the color as needed */
+    padding: 5px !important;
+    border-radius: 0 !important;
+}
+
+textarea :focus {
+    outline: none;
+    /* Add any additional focus styles if needed */
+}
+
+.hrCSS {
+    border: 2px solid #000000 !important;
+}
+
+.divider {
+    width: 40% !important;
+}
+
+
+.img1 {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.form-control{
+    background-color: transparent !important;
+    outline: none !important;
+}
+
+
+@media (min-width: 576px) {
+    .img1 {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .contact-div .img-fluid {
+        display: none;
+    }
+
+    .row {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .contact-div .col-md-6.contactCSS {
+        width: 80% !important;
+
+    }
+
+    .contact-div{
+        margin-top: 10px !important;
+        position: relative;
+        top: 2rem;
+    }
+
+
+}
+
+#heding{
+    color: red;
+}
+.abc{
+    color: red;
+}

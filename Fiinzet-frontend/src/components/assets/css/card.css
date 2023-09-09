@@ -1,0 +1,454 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&family=Gruppo&family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Caprasimo&family=Gruppo&family=Montserrat&display=swap');
+
+.bgCards{
+    background-color: #fff !important;
+}
+
+.card-textH {
+    /* font-family: 'Josefin Sans', sans-serif !important; */
+    /* font-family: 'Poppins', sans-serif !important; */
+    font-size: 1.45rem !important;
+    font-weight: bolder !important;
+    font-family: 'Lora', sans-serif;
+    letter-spacing: 2px !important;
+    /* font-family: 'Caprasimo', cursive; */
+    /* font-family: 'Gruppo', sans-serif; */
+}
+
+ .card-textH::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fdfdfd;
+    transition: width 0.3s ease-in-out;
+   
+  }
+  
+  .cardImgAdjust:hover .card-textH::after {
+    width: 100%;
+  }
+
+
+
+
+.midB {
+    justify-content: center !important;
+}
+
+.btnSize {
+    padding: 6px 10px !important;
+    font-size: 1rem;
+}
+
+.cardImgAdjust:hover .imgD{
+    border-radius: 50% !important;
+    box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4);
+    /* box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4); */
+
+}
+
+.imgD{
+    margin-top: 10px !important;
+}
+
+/* 
+.colAdjust {
+    height: 1rem !important;
+} */
+
+.cardImgAdjust {
+    height: 29rem !important;
+    
+}
+.cardImgAdjust:hover {
+  background-color: #b3d33e !important;
+  /* background: linear-gradient(to bottom,  #ecf8c2,#b3d33e); */
+
+  color: #fff !important;
+ 
+
+} 
+.cardCSS{
+    font-weight: "bold" !important;
+}
+
+.paraCss{
+    font-weight: "bold" !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small !important;
+}
+
+
+
+.cardImgAdjust img {
+    object-fit: cover;
+    max-width: 200px !important ;
+    /* Adjust this value as needed for width */
+    max-height: 200px !important;
+    /* Adjust this value as needed for height */
+    display: block;
+    margin: auto;
+
+}
+
+
+/* Add this in your CSS file */
+.container .card {
+
+    /* width: 19rem !important; */
+
+border-radius: 20px !important;
+    /* Add a shadow only on the right and bottom sides */
+    box-shadow: 2px 2px 5px rgba(4, 48, 73, 0.4);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 7px rgba(7, 72, 106, 0.4);
+}
+
+
+
+.album {
+    background: rgba(237, 237, 237, 0.478);
+}
+
+
+/* //..apply now..//// */
+
+
+
+
+.btn-primary {
+
+    background: #97b137 !important;
+    color: #fff !important;
+    font-weight: 800;
+    letter-spacing: 1.5;
+
+    border: none !important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.cardImgAdjust:hover .btn-primary {
+
+    background: #fff!important;
+    color:#97b137  !important;
+    /* transform: scale(1.03); */
+    box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4);
+
+
+}
+ .btn-primary:hover {
+
+    background: #cecdcd!important;
+    color:#b3d33e  !important;
+    transform: scale(1.03) !important;
+    box-shadow: 2px 2px 5px rgba(7, 72, 106, 0.4);
+
+
+}
+
+
+
+
+
+/* Add this in your CSS file */
+
+
+
+/* @media (max-width: 990px) {
+    .cardImgAdjust {
+        height: 28rem !important;
+
+    }
+}
+
+
+@media (max-width: 1024px){
+    .cardMain{
+        margin-top: 0 !important;
+        height: 25rem !important;
+    }
+
+    .btnSize {
+        margin-top: 10px;
+        padding: 4px 8px !important;
+        font-size: 15px;
+    }
+    
+} */
+/* 
+@media (max-width: 1197px) {
+    .cardImgAdjust{
+     height: 35rem !important;
+       
+    }
+    
+} */
+
+
+ @media (min-width: 100px) and (max-width: 576px) {
+
+    .mainCOl{
+        /* align-content: center; */
+    }
+
+    .colAdjust {
+        flex-basis: 50%;
+      
+    }
+.card-textH{
+    font-size: 16px !important;
+}
+.paraCss{
+    font-size: 12px !important;
+}
+    .cardImgAdjust img {
+        object-fit: cover;
+        /* height: 200px; */
+        /* height: 20rem !important; */
+        /* Adjust this value as needed */
+        max-width: 100px !important ;
+        /* Adjust this value as needed for width */
+        max-height: 100px !important;
+        margin: 3%;
+        
+       
+    }
+
+
+
+    .btnSize {
+        padding: 4px 8px !important;
+        font-size: 14px ;
+
+        position: relative;
+        bottom: 0.6rem !important;
+    }
+    
+.cardA {
+    position: relative !important;
+    /* bottom: 0.5rem !important; */
+    height: 14rem !important;
+    /* border: 2px solid red; */
+   
+}
+.cardMain{
+    margin-top: 10px !important;
+    height: 21rem !important;
+    width: 80%;
+   left: 9.5%;
+   align-items: center;
+}
+
+}
+
+
+@media (min-width: 432px) and (max-width: 576px) {
+    .cardImgAdjust img {
+        object-fit: cover;
+        /* height: 200px; */
+        /* height: 20rem !important; */
+        /* Adjust this value as needed */
+        max-width: 120px !important ;
+        /* Adjust this value as needed for width */
+        max-height: 120px !important;
+        /* margin: 2%; */
+        
+       
+    }
+    
+    /* .cardMain{
+      
+       height: 21rem !important;
+    } */
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .cardImgAdjust img {
+        object-fit: cover;
+        /* height: 200px; */
+        /* height: 20rem !important; */
+        /* Adjust this value as needed */
+        max-width: 150px !important ;
+        /* Adjust this value as needed for width */
+        max-height: 150px !important;
+        margin: 2%;
+        
+       
+    }
+
+  
+
+    .cardMain{
+        /* margin-top: 10px !important;
+        height: 22rem !important;
+        width: 80%;
+       left: 9.5%; */
+       margin-top: 10px !important;
+  
+       width: 100%;
+      /* left: 9.5%; */
+      align-items: center;
+       align-items: center;
+       height: 27rem !important;
+    }
+
+    .btnSize {
+        padding: 4px 8px !important;
+        font-size: 15px ;
+
+        position: relative;
+        bottom: 0.4rem !important;
+    }
+    
+.cardA {
+    position: relative !important;
+    /* bottom: 0.5rem !important; */
+    height: 14rem !important;
+    /* border: 2px solid red; */
+   
+}
+
+}
+
+@media (min-width: 648px) and (max-width: 768px) {
+   /* .cardWidth{
+        width: 35vw;
+    }  */
+
+    .cardImgAdjust img {
+        /* object-fit: cover; */
+        /* height: 200px; */
+        /* height: 20rem !important; */
+        /* Adjust this value as needed */
+        max-width: 140px !important ;
+        /* Adjust this value as needed for width */
+        max-height: 140px !important;
+        /* margin: 2%; */
+        
+       
+    }
+}
+
+@media (min-width: 769px) and (max-width: 989px) {
+    .cardImgAdjust img {
+        /* object-fit: cover; */
+        /* height: 200px; */
+        /* height: 20rem !important; */
+        /* Adjust this value as needed */
+        max-width: 100px !important ;
+        /* Adjust this value as needed for width */
+        max-height: 100px !important;
+        /* margin: 2%; */
+        
+       
+    }
+    .btnSize {
+        padding: 6px 10px !important;
+        font-size: 0.8rem;
+    }
+    
+    .cardMain{
+        /* margin-top: 10px !important;
+        height: 22rem !important;
+        width: 80%;
+       left: 9.5%; */
+       margin-top: 20px !important;
+  
+       width: 100%;
+      /* left: 9.5%; */
+      align-items: center;
+       align-items: center;
+       height: 26rem !important;
+    }
+    .card-textH{
+        font-size: 17px !important;
+    }
+
+    .paraCss{
+        /* font-weight: "bold" !important;
+        font-family: 'Montserrat', sans-serif; */
+        /* font-size: 12 !important; */
+        font-size: 12px !important;
+    }
+    
+}
+
+@media (min-width: 990px) and (max-width: 1024px) {
+    .cardImgAdjust img {
+        /* object-fit: cover; */
+        /* height: 200px; */
+        /* height: 20rem !important; */
+        /* Adjust this value as needed */
+        max-width: 120px !important ;
+        /* Adjust this value as needed for width */
+        max-height: 120px !important;
+        /* margin: 2%; */
+        
+       
+    }
+
+    
+    .cardMain{
+        /* margin-top: 10px !important;
+        height: 22rem !important;
+        width: 80%;
+       left: 9.5%; */
+       margin-top: 10px !important;
+  
+       width: 100%;
+      /* left: 9.5%; */
+      align-items: center;
+       align-items: center;
+       height: 25rem !important;
+    }
+    .card-textH{
+        font-size: 16px !important;
+    }
+
+    .paraCss{
+        /* font-weight: "bold" !important;
+        font-family: 'Montserrat', sans-serif; */
+        /* font-size: 12 !important; */
+        font-size: 12px !important;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+
+    .cardImgAdjust img {
+        /* object-fit: cover; */
+        /* height: 200px; */
+        /* height: 20rem !important; */
+        /* Adjust this value as needed */
+        max-width: 120px !important ;
+        /* Adjust this value as needed for width */
+        max-height: 120px !important;
+        /* margin: 2%; */
+        
+       
+    }
+    .cardMain{
+        /* margin-top: 10px !important;
+        height: 22rem !important;
+        width: 80%;
+       left: 9.5%; */
+       margin-top: 10px !important;
+  
+       width: 100%;
+      /* left: 9.5%; */
+      align-items: center;
+       align-items: center;
+       height: 25rem !important;
+    }
+
+}
