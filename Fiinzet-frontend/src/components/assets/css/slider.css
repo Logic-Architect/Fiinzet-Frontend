@@ -21,14 +21,21 @@ a .nav-link:hover {
 /* ........................................................ */
 /* BUTTON ka positiion carousel-caption se change hoga */
 /* ........................................................ */
+.carousel-item {
+  margin-top: 2.5% !important;
+  border-radius: 2% !important;
+  /* position: relative; */
+  height: 640px; /* Adjust height as needed   !!!!!!!!!!!!!! */
+  overflow: hidden;
 
+}
 
 /* Carousel caption style for larger screens */
 .carousel-caption1  {
   position: absolute !important;
-  bottom: 17% !important;
-  left: 6% !important;
-  right: 25% !important;
+  bottom: 10% !important;
+  left: 77.6% !important;
+  right: 5% !important;
   padding-bottom: 15px !important;
   color: #111 !important;
   text-align: left !important;
@@ -38,9 +45,9 @@ a .nav-link:hover {
 
 .carousel-caption2 {
   position: absolute !important;
-  bottom: 8% !important;
-  left: 9% !important;
-  right: 25% !important;
+  bottom: 9% !important;
+  left: 75% !important;
+  right: 5% !important;
   padding-bottom: 15px !important;
   color: #111 !important;
   text-align: left !important;
@@ -50,8 +57,8 @@ a .nav-link:hover {
 .carousel-caption3 {
   position: absolute !important;
   bottom: 17% !important;
-  left: 6% !important;
-  right: 25% !important;
+  left: 79% !important;
+  right: 5% !important;
   padding-bottom: 15px !important;
   color: #111 !important;
   text-align: left !important;
@@ -60,9 +67,9 @@ a .nav-link:hover {
 
 .carousel-caption4 {
   position: absolute !important;
-  bottom: 12% !important;
-  left: 6% !important;
-  right: 28% !important;
+  bottom: 8% !important;
+  left: 9% !important;
+  right: 8% !important;
   padding-bottom: 15px !important;
   color: #111 !important;
   text-align: left !important;
@@ -107,6 +114,184 @@ a .nav-link:hover {
   /* box-shadow: 2px 2px 5px rgba(4, 48, 73, 0.4); */
 }
 
+
+@media (max-width: 1366px) {
+  /* Apply styles for 14-inch laptop screens */
+
+  .carousel-caption1, .carousel-caption2, .carousel-caption3, .carousel-caption4 {
+    left: 5%; /* Adjust the position as needed for smaller screens */
+  }
+  .carousel-caption1  {
+    position: absolute !important;
+    bottom: 18% !important;
+    left: 77.6% !important;
+    right: 5% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  
+  }
+  
+  .carousel-caption2 {
+    position: absolute !important;
+    bottom: 19% !important;
+    left: 75% !important;
+    right: 5% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  }
+  
+  .carousel-caption3 {
+    position: absolute !important;
+    bottom: 24% !important;
+    left: 79% !important;
+    right: 5% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  }
+  
+  .carousel-caption4 {
+    position: absolute !important;
+    bottom: 18% !important;
+    left: 9% !important;
+    right: 8% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  }
+  
+}
+
+
+@media (max-width: 1056px) {
+  /* Apply styles for 14-inch laptop screens */
+
+  .carousel-caption1, .carousel-caption2, .carousel-caption3, .carousel-caption4 {
+    left: 5%; /* Adjust the position as needed for smaller screens */
+  }
+  .carousel-caption1  {
+    position: absolute !important;
+    bottom: 5% !important;
+    left: 76% !important;
+    right: 5% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  
+  }
+  
+  .carousel-caption2 {
+    position: absolute !important;
+    bottom: 10% !important;
+    left: 74% !important;
+    right: 5% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  }
+  
+  .carousel-caption3 {
+    position: absolute !important;
+    bottom: 10% !important;
+    left: 76% !important;
+    right: 5% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  }
+  
+  .carousel-caption4 {
+    position: absolute !important;
+    bottom: 5% !important;
+    left: 9% !important;
+    right: 8% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  }
+  .carousel-item {
+    margin-top: 4% !important;
+    /* position: relative; */
+    height: 440px; /* Adjust height as needed   !!!!!!!!!!!!!! */
+    overflow: hidden;
+  
+  }
+}
+
+
+@media (max-width: 886px) {
+  /* Apply styles for 14-inch laptop screens */
+
+  .carousel-caption1, .carousel-caption2, .carousel-caption3, .carousel-caption4 {
+    left: 5%; /* Adjust the position as needed for smaller screens */
+  }
+  .carousel-caption1  {
+    position: absolute !important;
+    bottom: 20% !important;
+    left: 76% !important;
+    right: 5% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  
+  }
+  
+  .carousel-caption2 {
+    position: absolute !important;
+    bottom: 20% !important;
+    left: 74% !important;
+    right: 5% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  }
+  
+  .carousel-caption3 {
+    position: absolute !important;
+    bottom: 20% !important;
+    left: 76% !important;
+    right: 5% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  }
+  
+  .carousel-caption4 {
+    position: absolute !important;
+    bottom: 20% !important;
+    left: 9% !important;
+    right: 8% !important;
+    padding-bottom: 15px !important;
+    color: #111 !important;
+    text-align: left !important;
+    z-index: 2;
+  }
+  .carousel-item {
+    margin-top: 4% !important;
+    /* position: relative; */
+    height: 440px; /* Adjust height as needed   !!!!!!!!!!!!!! */
+    overflow: hidden;
+  
+  }
+  .ApplyNowBtn {
+    font-size: 14px; /* Adjust the font size as needed */
+    padding: 4px 8px; /* Adjust the padding as needed */
+    width:126px;
+  }
+}
 /* ........................................................ */
 /* .....................IMP................................... */
 /* ........................................................ */
@@ -124,8 +309,7 @@ a .nav-link:hover {
     margin: 0 !important;
     padding: 0 !important;
     position: absolute !important;
-    top: 25
-    vh !important; /* Adjust the position as needed */
+    top: 25 vh !important; /* Adjust the position as needed */
     left: 50% !important;
     transform: translateX(-50%) !important;
     z-index: 2; 
@@ -143,7 +327,7 @@ a .nav-link:hover {
 /* ........................................................ */
 
   .carousel-item {
-    margin-top: 10% !important;
+    margin-top: 1% !important;
     /* position: relative; */
     height: 340px; /* Adjust height as needed   !!!!!!!!!!!!!! */
     overflow: hidden;
@@ -167,32 +351,32 @@ a .nav-link:hover {
     border-radius: 20px;
   }
   .ApplyNowBtn {
-    font-size: 10px; /* Adjust the font size as needed */
+    font-size: 9px; /* Adjust the font size as needed */
     padding: 1px 5px; /* Adjust the padding as needed */
     width:85px;
   }
 
   .carousel-item:nth-child(1) img {
-    content: url("../../assets/images/WebsiteFormobileNew11.png");
+    content: url("../../assets/images/M1.jpg");
   }
 
   .carousel-item:nth-child(2) img {
-    content: url("../../assets/images/WebsiteFormobileNew12.png");
+    content: url("../../assets/images/M2.jpg");
   }
 
   .carousel-item:nth-child(3) img {
-    content: url("../../assets/images/WebsiteFormobileNew13.png");
+    content: url("../../assets/images/M3.jpg");
   }
 
   .carousel-item:nth-child(4) img {
-    content: url("../../assets/images/WebsiteFormobileNew14.png");
+    content: url("../../assets/images/M4.jpg");
   }
 
   /* Carousel caption style for larger screens */
 .carousel-caption1  {
   position: absolute !important;
-  bottom: 18% !important;
-  left: 65% !important;
+  bottom: 5% !important;
+  left: 64% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
   color: #111 !important;
@@ -203,8 +387,8 @@ a .nav-link:hover {
 
 .carousel-caption2 {
   position: absolute !important;
-  bottom: 18% !important;
-  left: 62% !important;
+  bottom: 4% !important;
+  left: 42% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
   color: #111 !important;
@@ -214,8 +398,8 @@ a .nav-link:hover {
 
 .carousel-caption3 {
  position: absolute !important;
-  bottom: 20% !important;
-  left: 64% !important;
+  bottom: 3.2% !important;
+  left: 65% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
   color: #111 !important;
@@ -225,13 +409,12 @@ a .nav-link:hover {
 
 .carousel-caption4 {
   position: absolute !important;
-  bottom: 19% !important;
-  left: 62% !important;
+  bottom: 3% !important;
+  left: 7% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
   color: #180101 !important;
   text-align: left !important;
   z-index: 2;
 }
-  
 }

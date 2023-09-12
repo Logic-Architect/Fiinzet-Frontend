@@ -117,7 +117,7 @@ const PhoneSignUp = () => {
             <div className="card shadow">
               <div className="card-body">
                 <div className="p-4 box">
-                  <h2 className="mb-3">Verification process </h2>
+                  <h2 className="mb-4">Verification process </h2>
                   {error && <Alert variant="danger">{error?.code}</Alert>}
                   <Form
                     onSubmit={getOtp}

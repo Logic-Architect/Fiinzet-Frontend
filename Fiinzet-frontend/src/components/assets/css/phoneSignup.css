@@ -1,3 +1,7 @@
+.box{
+    align-content: center;
+    margin-bottom: 50%;
+}
 .secBTN {
     background-color: #61615f !important;
     color: #fff !important;
@@ -9,7 +13,7 @@
 
 .secBTN:hover {
     background-color: #2f2d2f !important;
-    transform: scale(1.05);
+    transform: scale(1.0);
 
 }
 
@@ -17,3 +21,6 @@
     cursor: pointer;
     text-decoration: underline;
 }
+/* @media(768px){
+    margin
+} */
