@@ -1,4 +1,4 @@
-.box{
+.main .box{
     align-content: center;
     margin-bottom: 50%;
 }
@@ -21,6 +21,3 @@
     cursor: pointer;
     text-decoration: underline;
 }
-/* @media(768px){
-    margin
-} */

@@ -1,6 +1,10 @@
 .thanks{
     margin-top: 50px !important;
 }
+.box1{
+    align-content: center;
+    margin-bottom: 5%;
+}
 
 @media (max-width: 768px) {
     .thanks{

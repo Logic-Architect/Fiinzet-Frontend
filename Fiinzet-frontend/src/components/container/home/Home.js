@@ -25,7 +25,7 @@ const Home = () => {
         <div className="container thanks">
           <div className="card shadow">
             <div className="card-body">
-      <div className="p-4 box mt-3 text-center">
+      <div className="p-4 box1 mt-3 text-center">
        <h3>Thank you for submitting the form! A loan expert will contact you soon. </h3> <br />
         {user && user.email}
       </div>

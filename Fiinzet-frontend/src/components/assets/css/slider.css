@@ -99,7 +99,7 @@ a .nav-link:hover {
 .btn-success {
   background-color: #97b137 !important;
   color: #fff !important;
-  border: none;
+  border: 2px solid #fff;
   font-size: 20px;
   font-weight: 800;
   letter-spacing: 1.5;
@@ -110,6 +110,7 @@ a .nav-link:hover {
 .btn-success:hover {
   background-color: #fff !important;
   color: #b3d33e !important;
+  border: 2px solid #b3d33e ;
   box-shadow: 0 .5rem 1rem rgba(15, 28, 51, 0.366) !important;
   /* box-shadow: 2px 2px 5px rgba(4, 48, 73, 0.4); */
 }
@@ -351,8 +352,9 @@ a .nav-link:hover {
     border-radius: 20px;
   }
   .ApplyNowBtn {
-    font-size: 9px; /* Adjust the font size as needed */
+    font-size: 7px; /* Adjust the font size as needed */
     padding: 1px 5px; /* Adjust the padding as needed */
+    font-weight: 800;
     width:85px;
   }
 
@@ -375,7 +377,7 @@ a .nav-link:hover {
   /* Carousel caption style for larger screens */
 .carousel-caption1  {
   position: absolute !important;
-  bottom: 5% !important;
+  bottom: 6% !important;
   left: 64% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
@@ -387,7 +389,7 @@ a .nav-link:hover {
 
 .carousel-caption2 {
   position: absolute !important;
-  bottom: 4% !important;
+  bottom: 5% !important;
   left: 42% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
@@ -398,7 +400,7 @@ a .nav-link:hover {
 
 .carousel-caption3 {
  position: absolute !important;
-  bottom: 3.2% !important;
+  bottom: 4% !important;
   left: 65% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
@@ -409,7 +411,7 @@ a .nav-link:hover {
 
 .carousel-caption4 {
   position: absolute !important;
-  bottom: 3% !important;
+  bottom: 4% !important;
   left: 7% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
