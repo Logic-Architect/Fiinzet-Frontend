@@ -25,7 +25,7 @@ div h2{
   
   
   }
-  .section .container2{
+ .calcCSS{
     margin-top: 220px !important;
   }
 
@@ -43,7 +43,7 @@ div h2{
     font-weight: bold;
   }
   @media (max-width: 1168px){
-    .section .container2{
-      margin-top: 60px !important;
+    .calcCSS{
+      margin-top: 4rem !important;
     }
   }
