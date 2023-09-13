@@ -104,6 +104,7 @@ a .nav-link:hover {
   font-weight: 800;
   letter-spacing: 1.5;
   box-shadow: 2px 2px 5px rgba(4, 48, 73, 0.4) !important;
+  box-shadow:inset 2px 2px 5px rgba(1, 88, 30, 0.4) !important;
 
 }
 
@@ -170,7 +171,7 @@ a .nav-link:hover {
 }
 
 
-@media (max-width: 1056px) {
+@media (max-width: 912px) {
   /* Apply styles for 14-inch laptop screens */
 
   .carousel-caption1, .carousel-caption2, .carousel-caption3, .carousel-caption4 {
@@ -178,7 +179,7 @@ a .nav-link:hover {
   }
   .carousel-caption1  {
     position: absolute !important;
-    bottom: 5% !important;
+    bottom: 14% !important;
     left: 76% !important;
     right: 5% !important;
     padding-bottom: 15px !important;
@@ -190,7 +191,7 @@ a .nav-link:hover {
   
   .carousel-caption2 {
     position: absolute !important;
-    bottom: 10% !important;
+    bottom: 15% !important;
     left: 74% !important;
     right: 5% !important;
     padding-bottom: 15px !important;
@@ -201,7 +202,7 @@ a .nav-link:hover {
   
   .carousel-caption3 {
     position: absolute !important;
-    bottom: 10% !important;
+    bottom: 15% !important;
     left: 76% !important;
     right: 5% !important;
     padding-bottom: 15px !important;
@@ -212,7 +213,7 @@ a .nav-link:hover {
   
   .carousel-caption4 {
     position: absolute !important;
-    bottom: 5% !important;
+    bottom: 13% !important;
     left: 9% !important;
     right: 8% !important;
     padding-bottom: 15px !important;

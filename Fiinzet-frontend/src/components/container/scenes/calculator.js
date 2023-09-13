@@ -99,7 +99,7 @@ const LoanEligibilityCalculator = () => {
 
   return (
     <section className="section mt-5 pt-4 pb-5 contact-div sectionCSS ">
-      <div className="container">
+      <div className="container2">
         <div className="card-body">
           <div className="row">
             <div className="col-md-6  contactCSS">

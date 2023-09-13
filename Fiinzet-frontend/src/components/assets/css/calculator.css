@@ -25,6 +25,9 @@ div h2{
   
   
   }
+  .section .container2{
+    margin-top: 220px !important;
+  }
 
   .card_text {
     padding-top: 10px !important;
@@ -38,4 +41,9 @@ div h2{
 
   .AmtCss {
     font-weight: bold;
+  }
+  @media (max-width: 1168px){
+    .section .container2{
+      margin-top: 60px !important;
+    }
   }
