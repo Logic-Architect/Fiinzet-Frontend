@@ -69,7 +69,7 @@ const PhoneSignUp = () => {
       async function add() {
       
         // fetch("https://fiinzet.com/senduserinput", prerequire)
-        fetch("http://localhost:8000/senduserinput", {
+        fetch("http://13.53.253.75:8000/sendUserInput", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
          

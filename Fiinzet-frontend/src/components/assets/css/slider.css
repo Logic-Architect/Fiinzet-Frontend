@@ -377,7 +377,7 @@ a .nav-link:hover {
   /* Carousel caption style for larger screens */
 .carousel-caption1  {
   position: absolute !important;
-  bottom: 6% !important;
+  bottom: 6.4% !important;
   left: 64% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;
@@ -389,7 +389,7 @@ a .nav-link:hover {
 
 .carousel-caption2 {
   position: absolute !important;
-  bottom: 5% !important;
+  bottom: 5.3% !important;
   left: 42% !important;
   /* right: 25% !important; */
   padding-bottom: 15px !important;

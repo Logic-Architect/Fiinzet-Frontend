@@ -19,7 +19,7 @@ const ContactUs = () => {
       setflage(false);
       
       // fetch("https://fiinzet.com/contact", prerequire)
-      fetch('http://localhost:8000/contact', {
+      fetch('http://13.53.253.75:8000/contact', {
              method: 'POST',
              headers:{
                'Content-Type': 'application/x-www-form-urlencoded'
